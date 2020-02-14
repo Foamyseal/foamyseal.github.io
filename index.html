@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Martin Au-yeung</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Martin Au-yeung">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap CSS and Index CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/index.css"> 
+
+  <!--Bootstrap JS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/5430352e15.js" crossorigin="anonymous"></script>
+  <link rel='icon' href='images/favicon.ico' type='image/x-icon'/>
+</head>
+
+<body>
+  <div id="heading-part" class="jumbotron text-center" id=title>
+  <div id="page-title">
+    <h1>Martin Au-yeung</h1>
+    <p>BSc in Combined Major in Science Candidate at the University of British Columbia</p>
+  </div>
+    
+      <a href="https://facebook.com/foamyseal" target="_blank" title="facebook" id="icons">
+        <i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/martin.au_yeung" target="_blank" title="instagram" id="icons">
+          <i class="fab fa-instagram"></i></a>
+      <a href="mailto:martin.red.202@gmail.com" title="email" id="icons">
+        <i class="far fa-envelope"></i></a>
+        <a href="https://github.com/Foamyseal" target="_blank"title="github" id="icons">
+          <i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/martinauyeung/" target="_blank" title="linkedin" id="icons">
+        <i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <div class="container">
+    <!-- Tabs -->
+    <ul class="nav nav-tabs justify-content-center" id=tabs>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#aboutme">My Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#menu1">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">Experience</a>
+      </li>
+    </ul>
+
+  <!-- Content -->
+  <div id="content" class="tab-content">
+
+    <div id="aboutme" class="container tab-pane fade"><br>
+      <h3>About Me</h3>
+      <p> I am a third year Combined Major in Science student at the University of British Columbia, 
+        specializing in Computer Science, Biological Sciences & Earth and Ocean Sciences.</p>
+      <p>Passionate about learning more about programming, this website is used for me to learn more about Bootstrap, JS, CSS & HTML</p>
+      <h3>Technical Skills</h3>
+      <strong>Programming Languages:</strong>
+        <ul>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      <strong>Frameworks:</strong>
+        <ul>
+          <li>Bootstrap 4</li>
+        </ul>
+      <p>For more information, see Attached Resume</p>
+      <a href="" target="_blank"></a>
+    </div>
+
+    <div id="menu1" class="container tab-pane active"><br>
+      <h3>Projects</h3>
+      <div id="project-content1">
+        <img src="images/cs103.png" alt="website image" class="resize" style="float:left">
+             <h4>UPass Auto Renew
+               <span> 
+                 <a href="https://github.com/Foamyseal/UPass-AutoRenew" target="_blank">
+                   <i class="fab fa-github"></i></a>
+               </span>
+             </h4> 
+               <p>A Chrome extension built on JavaScript. Proof of Concept was built with additional HTML pages to 
+                  test the extensions functions, as we were unable to access a state where we could request the UPass on the official website to test the program. </p>
+              <p>Although we did not have a working product at the end, this experience allowed me to learn how to develop an application from scratch in a team, and as well continue to develop my skills with JavaScript, HTML, CSS and Git. I personally worked on the JavaScript, HTML and CSS of our test website to allow the chrome extension to test the real world case if the UPass was avaliable to request.  </p>
+              <p>Chrome Extension using JavaScript, HTML and CSS, more details avaliable in the Git Repo</p>
+              <p>Built for LifeHacks 2020</p>
+         </div>
+      <div id="project-content2">
+       <img src="images/foamyseal.png" alt="website image" class="resize" style="float:left">
+            <h4>foamyseal.github.io 
+              <span> 
+                <a href="https://github.com/Foamyseal/foamyseal.github.io" target="_blank">
+                  <i class="fab fa-github"></i></a>
+                <a href="https://foamyseal.github.io" target="_blank">
+                  <i class="fas fa-link"></i></a>
+              </span>
+            </h4> 
+              <p>A personal website that displays projects and experience I have done. </p>
+                This project allowed me to develop skills using HTML, CSS and JS with Bootstrap 4 as the framework </p>
+              <p>Tools: Bootstrap 4</p>
+              <p>IDE: Visual Studio Code</p>
+              <p>xdhacks</p>
+        </div>
+        <div id="project-content3">
+          <img src="images/cs103.png" alt="website image" class="resize" style="float:left" id="cheese">
+               <h4> Most Dangerous Transportation Method
+                 <span> 
+                   <a href="https://github.com/Foamyseal/foamyseal.github.io" target="_blank">
+                     <i class="fab fa-github"></i></a>
+                 </span>
+               </h4> 
+                 <p>A Program that produces a pie chart to demonstrates the highest average percentage of fatalities per year across a period of time </p>
+                <p> This project allowed me to develop skills using Python and HtDF </p>
+                <p>Built on UBC sygzy servers</p></p>>
+                <p>Built for introductory CS course (CS 103)</p>
+           </div>
+      </div>
+
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>Experience</h3>
+        <h4>Vice President, Commmunications <a href="https://sus.ubc.ca"> <span class="workplace"> - Science Undergraduate Society of UBC </span> </a> </h4> 
+          April 2019 - Present
+          <p>Oversee and support various sectors of the Communications portfolio. </p>
+          <p>
+            Notable Achievements so far include: 
+            <ul>
+              <li> Engaging over 1600 science students across 3 events as part of the SUS First Week initiative. </li>
+              <li> Redesign of the sus.ubc.ca website, built on Wordpress as framework</li>
+              <li> Introduced a pilot project: "Production Commission" aimed to increase online student social media engagement. </li>
+            </ul>
+          </p>
+          <h4>Tutor <a href="https://www.oxfordlearning.com/locations/tutor-wesbrook-village-vancouver/"> <span class="workplace"> - Oxford Learning Centres Inc.</span> </a> </h4> 
+          April 2019 - Present
+          <p>Private/group tutoring for Elementary and Highschool Students (K-12) in English, Mathematics, Biology, Chemistry, Physics and General Science. </p>
+      <h3>more info can be found on my linkedin</h3>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
