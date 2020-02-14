@@ -9,6 +9,7 @@
 #page-title{
   margin-top: 70px;
 }
+
 #content{
   font-family: Arial, sans-serif
 }
@@ -42,23 +43,28 @@ img{
   color: darkslategrey;
 }
 
-#project-content1 {
-  padding-top: 30 px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
-}
-
-#project-content2 {
-  padding-top: 20px; 
-  *padding-bottom: 30px; */
-  border-bottom: 1px solid #ccc;
-} 
-
 img.resize{
-  max-width: 40%;
-  padding-bottom: 100px
+  max-width: 100%;
 }
 
 #cheese {
   max-width: 50%; 
+}
+
+.row {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.column{
+  flex: 50%;
+  width: 100%;
+}
+
+#project-heading{
+  padding-bottom: 20px;
+}
+
+#project-image{
+  padding-bottom: 25px;
 }

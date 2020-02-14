@@ -26,7 +26,7 @@
     <h1>Martin Au-yeung</h1>
     <p>BSc in Combined Major in Science Candidate at the University of British Columbia</p>
   </div>
-    
+    <!-- Icons -->
       <a href="https://facebook.com/foamyseal" target="_blank" title="facebook" id="icons">
         <i class="fab fa-facebook-f"></i></a>
         <a href="https://instagram.com/martin.au_yeung" target="_blank" title="instagram" id="icons">
@@ -55,7 +55,6 @@
 
   <!-- Content -->
   <div id="content" class="tab-content">
-
     <div id="aboutme" class="container tab-pane fade"><br>
       <h3>About Me</h3>
       <p> I am a third year Combined Major in Science student at the University of British Columbia, 
@@ -77,24 +76,42 @@
       <a href="" target="_blank"></a>
     </div>
 
+
+    <!-- Projects -->
     <div id="menu1" class="container tab-pane active"><br>
-      <h3>Projects</h3>
-      <div id="project-content1">
-        <img src="images/cs103.png" alt="website image" class="resize" style="float:left">
-             <h4>UPass Auto Renew
-               <span> 
-                 <a href="https://github.com/Foamyseal/UPass-AutoRenew" target="_blank">
-                   <i class="fab fa-github"></i></a>
-               </span>
-             </h4> 
-               <p>A Chrome extension built on JavaScript. Proof of Concept was built with additional HTML pages to 
-                  test the extensions functions, as we were unable to access a state where we could request the UPass on the official website to test the program. </p>
-              <p>Although we did not have a working product at the end, this experience allowed me to learn how to develop an application from scratch in a team, and as well continue to develop my skills with JavaScript, HTML, CSS and Git. I personally worked on the JavaScript, HTML and CSS of our test website to allow the chrome extension to test the real world case if the UPass was avaliable to request.  </p>
-              <p>Chrome Extension using JavaScript, HTML and CSS, more details avaliable in the Git Repo</p>
-              <p>Built for LifeHacks 2020</p>
+      <div id="project-heading">
+        <h3>Projects</h3>
+      </div>
+      <div class="row">
+        <div class="column" id="project-image">
+          <div>
+            <img src="images/upass.png" alt="website image" class="resize" style="float:left">
+          </div>
+        </div>
+      <div class="column">
+        <h4>UPass Auto Renew
+          <span> 
+            <a href="https://github.com/Foamyseal/UPass-AutoRenew" target="_blank">
+              <i class="fab fa-github"></i></a>
+          </span>
+        </h4> 
+          <p>A Chrome extension built on JavaScript. Proof of Concept was built with additional HTML pages to 
+             test the extensions functions, as we were unable to access a state where we could request the UPass on the official website to test the program. </p>
+          <p>Although we did not have a working product at the end, this experience allowed me to learn how to develop an application from scratch in a team, and as well continue to develop my skills with JavaScript, HTML, CSS and Git. I personally worked on the JavaScript, HTML and CSS of our test website to allow the chrome extension to test the real world case if the UPass was avaliable to request.  </p>
+          <p>Chrome Extension using JavaScript, HTML and CSS, more details avaliable in the Git Repo</p>
+          <p>Built for LifeHacks 2020</p>
          </div>
-      <div id="project-content2">
-       <img src="images/foamyseal.png" alt="website image" class="resize" style="float:left">
+      </div>
+
+      <!-- Second Project -->
+      <div class="row">
+        <div class="column" id="project-image">
+          <div>
+            <img src="images/website.png" alt="website image" class="resize" style="float:left">
+          </div>
+        </div>
+
+        <div class="column" id="project-text2">
             <h4>foamyseal.github.io 
               <span> 
                 <a href="https://github.com/Foamyseal/foamyseal.github.io" target="_blank">
@@ -104,26 +121,35 @@
               </span>
             </h4> 
               <p>A personal website that displays projects and experience I have done. </p>
-                This project allowed me to develop skills using HTML, CSS and JS with Bootstrap 4 as the framework </p>
+              <p>This project allowed me to develop skills using HTML, CSS and JS with Bootstrap 4 as the framework </p>
               <p>Tools: Bootstrap 4</p>
-              <p>IDE: Visual Studio Code</p>
-              <p>xdhacks</p>
         </div>
-        <div id="project-content3">
-          <img src="images/cs103.png" alt="website image" class="resize" style="float:left" id="cheese">
-               <h4> Most Dangerous Transportation Method
-                 <span> 
-                   <a href="https://github.com/Foamyseal/foamyseal.github.io" target="_blank">
-                     <i class="fab fa-github"></i></a>
-                 </span>
-               </h4> 
-                 <p>A Program that produces a pie chart to demonstrates the highest average percentage of fatalities per year across a period of time </p>
-                <p> This project allowed me to develop skills using Python and HtDF </p>
-                <p>Built on UBC sygzy servers</p></p>>
-                <p>Built for introductory CS course (CS 103)</p>
-           </div>
       </div>
 
+      <!-- Third Project-->
+      <div class="row">
+
+        <div class="column" id="project-image">
+           <div>
+              <img src="images/cs103.png" alt="website image" class="resize" style="float:left">
+            </div>
+          </div>
+
+          <div class="column" id="project-text3">
+            <h4>Highest Average MVA Fatalities
+              <span> 
+                <a href="https://github.com/Foamyseal/foamyseal.github.io" target="_blank">
+                  <i class="fab fa-github"></i></a>
+              </span>
+            </h4> 
+             <p>A Program that produces a pie chart to demonstrates the highest average percentage of Motor Vehicle fatalities per year across a period of time </p>
+             <p> This project allowed me to develop skills using Python and HtDF </p>
+             <p>Built for introductory CS course (CS 103)</p>  
+          </div>
+         </div>
+      </div>
+
+    <!-- Experience -->
     <div id="menu2" class="container tab-pane fade"><br>
       <h3>Experience</h3>
         <h4>Vice President, Commmunications <a href="https://sus.ubc.ca"> <span class="workplace"> - Science Undergraduate Society of UBC </span> </a> </h4> 
@@ -140,7 +166,7 @@
           <h4>Tutor <a href="https://www.oxfordlearning.com/locations/tutor-wesbrook-village-vancouver/"> <span class="workplace"> - Oxford Learning Centres Inc.</span> </a> </h4> 
           April 2019 - Present
           <p>Private/group tutoring for Elementary and Highschool Students (K-12) in English, Mathematics, Biology, Chemistry, Physics and General Science. </p>
-      <h3>more info can be found on my linkedin</h3>
+    </div>
     </div>
   </div>
   </div>
