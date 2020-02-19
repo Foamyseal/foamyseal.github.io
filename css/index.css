@@ -26,6 +26,10 @@ p {
   align-content: center;
 }
 
+h3 {
+  padding-bottom: 15px;
+}
+
 h4 {
   padding-right: 200px;
 }
