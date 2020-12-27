@@ -31,9 +31,9 @@
         <i class="far fa-envelope"></i></a>
       <a href="https://github.com/Foamyseal" target="_blank"title="github" id="icons">
         <i class="fab fa-github"></i></a>
-      <a href="https://github.com/Foamyseal" target="_blank"title="linkedin" id="icons">
+      <a href="https://www.linkedin.com/in/martinauyeung/" target="_blank"title="linkedin" id="icons">
         <i class="fab fa-linkedin"></i></a>
-      <a href="images/martin au-yeung summer 2021.pdf" target="_blank" title="resume" id="icons">
+      <a href="images/martin_au-yeung_resume_nov2020.pdf" target="_blank" title="resume" id="icons">
         <i class="far fa-file"></i></a>
   </div>
 
@@ -58,6 +58,9 @@
       <p> I am a Combined Major in Science student at the University of British Columbia, specializing in Computer Science, Biological Sciences & Earth, and Ocean Sciences.</p>
       <p>I recently switched into this program from Biology in January 2020. Having done Computer Science since Highschool, I never considered it to be something I would pursue full-time, but instead something on the side for fun. However, over time, I realized Biology wasn't truly what I wanted to do as a full-time career, and the aspects of being a developer became more intriguing, most notably being able to create a product I or someone could use, and as well allow me to apply my entrepreneurship skills led me to make the switch over to pursue a Computer Science degree full-time. </p>
       <p>Passionate about learning more about development outside of class to accelerate my learning and catch up on what I've "missed", this website is used for me to learn more about front-end web development; and as well showcase the projects that I complete.</p>
+      <p>Some things I'm proud of in my journey in switching so far: </p>
+      <li> Creating my own personal project (WeatherWear) I deployed on Heroku, 1 month after switching majors </li> 
+      <li> Winning the Google Cloud COVID-19 Hackathon Fund at DubHacks 2020, 9 months after switching. This is where Google Cloud has given my team and I up to $5000 in Google Cloud credits and direct guidance from Google developers to deploy our project, hubble, for public use. </li>
       <hr/>
       <h3>Technical Skills</h3>
       <div class="row">
@@ -106,6 +109,16 @@
         </ul>
         </div>
       <div class="col-sm-4">
+         <strong>Cloud Frameworks</strong>
+        <ul>
+            <li>Google Firebase</li>
+            <li>Google Firestore </li>
+            <li>Google mySQL</li>
+            <li>Google Cloud Functions</li>
+            <li>Google Natural Language Proccesing</li>
+          </ul>
+      </div>
+      <div class="col-sm-4">
         <strong>IDE:</strong>
         <ul>
           <li>Visual Studio Code</li>
@@ -113,10 +126,9 @@
           <li>Atom</li>
         </ul>
       </div>
-      </div>
-      <p>For more information, see <a href="images/martin au-yeung summer 2021.pdf" target="_blank">Attached Resume </a></p>
-    
+      <p>For more information, see <a href="images/martin_au-yeung_resume_nov2020.pdf" target="_blank">Attached Resume </a></p>
     </div>
+  </div>
 
 
     <!-- Projects -->
@@ -125,11 +137,35 @@
         <h3>Projects</h3> 
       </div>
 
+      <div class="row">
+        <div class="column" id="project-image">
+          <div>
+            <img src="images/hubble.png" alt="website image" class="resize" style="float:left">
+          </div>
+        </div>
+      <div class="column">
+        <h4>hubble
+          <span class="workplace"> (October 2020)</span>
+          <span> 
+            <a href="https://github.com/ThunderHuskies" target="_blank">
+              <i class="fab fa-github"></i></a>
+            <a href="https://devpost.com/software/hubble" target="_blank">
+              <i class="fas fa-external-link-alt"></i></a>
+          </span>   
+        </h4> 
+          <p>DubHacks 2020 Winner of the Google Cloud COVID-19 Hackathon Fund.</p>
+          <p>An iOS application that aims to connect students together during the online COVID-19 pandemic.</p>
+          <p>I served as the back-end developer and team lead. I created a custom matching algorithm in 24 hours to connect students with similar interests and courses using Google Cloud’s Natural Language Processing API (NLP)</p>
+          <p>The back-end uses Google Firebase, with Firestore acting as the database and Cloud functions hosting the matching algorithm. The front-end was built with Swift UI. </p>
+          <p>The project has recieved $1300 in funding from Google so far, and is recieving mentorship from Google developers for deployment to University students. As such, many elements on the Devpost, such as the UI, are currently outdated. Feel free to contact me for more about what we are currently working on. </p>
+          <p>Frameworks & Libraries: Google Firebase/Firestore/Cloud Functions, Google Cloud Natural Processing Language API, Node.js, Swift UI, </p>
+         </div>
+      </div>
       
       <div class="row">
         <div class="column" id="project-image">
           <div>
-            <img src="images/PaymentPalBeta.png" alt="website image" class="resize" style="float:left">
+            <img src="images/paymentpal.png" alt="website image" class="resize" style="float:left">
           </div>
         </div>
       <div class="column">
@@ -140,8 +176,11 @@
               <i class="fab fa-github"></i></a>
           </span>   
         </h4> 
-          <p>Work in Progress Java Banking Application for CPSC 210 (Software Construction)</p>
-          <p>Frameworks & Libraries: JUnit Testing</p>
+          <p>Work in progress Java banking application for CPSC 210 (Software Construction)</p>
+          <p>Phase 1 User Stories: Depositing Credits, withdrawing Credits, and seeing transaction history.</p>
+          <p>Phase 2 User Stories: Saving account balance and transaction history. Loading prior account balance and transaction history</p>
+          <p>Phase 3: GUI with filter options</p>
+          <p>Frameworks & Libraries: JUnit Testing, Swing UI</p>
          </div>
       </div>
 
@@ -163,6 +202,7 @@
           </span>   
         </h4> 
           <p>A 3rd party Spotify Web app that displays current top 3 most listened to artists, current top 15 songs, audio features of the songs you listen/listened to (current vs all time), throwback suggestions based on what you listened to in the past, share top songs/top artists/throwbacks and generate playlists function</p>
+          <p>I've always been an avid user of Spotify, and I wished there was a way to view my own personal statistics, create playlists off of them and have throwback songs suggested to me. So, I decided to make my own web app that does it for me. </p>
           <p>I was able to get a strong understanding of React, as well as JavaScript. This project was meant to show what I learned over the summer as well as applying previous knowledge from past projects.</p>
           <p>Learned how to use jQuery Ajax to make API calls. As well used async and await features. Written in JavaScript with React framework</p>
           <p>Frameworks & Libraries: React.js, Node.js, jQuery Ajax, Grommet V2, Spotify Web API.</p>
@@ -210,7 +250,6 @@
              test the extensions functions, as we were unable to access a state where we could request the UPass on the official website to test the program. </p>
           <p>Although we did not have a working product by the end of the Hackathon, my first experience with a hackathon allowed me to learn how to develop an application from scratch in a team, and as well continue to develop my skills with JavaScript, HTML, CSS and Git. I personally worked on the JavaScript, HTML and CSS of our test website to allow the chrome extension to test the real world case if the UPass was avaliable to request. </p>
           <p>Chrome Extension using JavaScript, HTML and CSS, more details avaliable in the Git Repo</p>
-          <p>This project will be continued to be developed overtime</p>
        </div>
       </div>
 
@@ -231,7 +270,7 @@
             </h4> 
              <p>A program that takes in spreadsheet data from ICBC that details yearly invovled fatality group
                 and produces a pie chart to calculate the highest average percentage of Motor Vehicle fatality type per year across 7 year time period to determine which method of transporation is the most dangerous. (Most Fatal Transportation Mode)</p>
-             <p> This project allowed me to develop skills using Python to analyze data sets, built for Introduction to Systematic Program Design Course at UBC</p>  
+             <p> This project allowed me to develop skills using Python to analyze data sets, built for Introduction to Systematic Program Design Course (CPSC 103) at UBC</p>  
              </div>
          </div>
          <div class="row">
@@ -248,7 +287,7 @@
                     <i class="fab fa-github"></i></a>
                 </span>
               </h4> 
-                <p>A personal website that displays projects and experience I have done. </p>
+                <p> This personal website that displays projects and experience I have done. </p>
                 <p>This project allowed me to develop skills using HTML, CSS and JS with Bootstrap 4 as the framework </p>
                 <p>Tools: Bootstrap 4</p>
           </div>
