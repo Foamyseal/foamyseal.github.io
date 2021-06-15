@@ -23,14 +23,14 @@ export const ProjectCard = ({ project }) => {
       data-replace='{"translate-y-96": "translate-y-0" }'
     >
       <Link href={project.href}>
-      <div className="pb-20 max-w-7xl w-3xl mx-auto px-4 sm:px-6 duration-900 transform scale-110 hover:scale-125">
+      <div className="pb-20 max-w-7xl w-3xl mx-auto px-4 sm:px-6 duration-900 transform scale-110 lg:hover:scale-125">
         <div className="flex items-center">
           <div className="flex justify-center lg:w-0 lg:flex-1">
             <div>
               <div className="container mx-auto">
                 <div className="relative m-auto">
                   <div className="flex-none md:flex">
-                    <div className="z-50 p-3 mt-10 max-w-3xl w-lg grid lg:grid-cols-3 grid-cols-1 cursor-default select-none rounded-lg bg-white hover:bg-blue-50 shadow-xl">
+                    <div className="z-50 p-3 mt-10 max-w-3xl w-lg grid lg:grid-cols-3 grid-cols-1 cursor-default select-none rounded-lg bg-white lg:hover:bg-blue-50 shadow-xl">
                       <div className="md:ml-5 rounded-full object-cover fitpl-8 h-full w-full lg:h-48 lg:w-48 lg:mb-0 mb-3 col-span-1">
                         {project.image.length > 0 && (
                           <Image
