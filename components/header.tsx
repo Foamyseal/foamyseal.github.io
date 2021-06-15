@@ -58,7 +58,7 @@ export const Header = () => {
                               Resume
                             </a>
                           </Link>
-                          <Link href="/aboutme">
+                          <Link href="mailto:martin.auyeung1@gmail.com">
                             <a className="whitespace-nowrap  text-center  font-poppins text-base font-medium text-gray-900 pr-6 hover:text-gray-900">
                               Contact Me
                             </a>

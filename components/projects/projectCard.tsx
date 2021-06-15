@@ -23,7 +23,7 @@ export const ProjectCard = ({ project }) => {
       data-replace='{"translate-y-96": "translate-y-0" }'
     >
       <Link href={project.href}>
-      <div className="pb-20 max-w-7xl w-3xl mx-auto px-4 sm:px-6 duration-900 transform scale-110 lg:hover:scale-125">
+      <div className="pb-4 max-w-8xl w-4xl mx-auto px-4 sm:px-6 transform duration-200 lg:hover:scale-110">
         <div className="flex items-center">
           <div className="flex justify-center lg:w-0 lg:flex-1">
             <div>
@@ -48,10 +48,10 @@ export const ProjectCard = ({ project }) => {
                             <div className="font-semibold font-poppins text-2xl mb-2 ml-2 dark:text-white">
                               {project.title}
                             </div>
-                            <div className="font-poppins text-md mb-2 ml-2 text-purple-500 dark:text-white">
+                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600 dark:text-white">
                               {project.award1}
                             </div>
-                            <div className="font-poppins text-md mb-2 ml-2 text-purple-500 dark:text-white">
+                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600 dark:text-white">
                               {project.award2}
                             </div>
                             <div className="my-2 mx-2 mr-5">
