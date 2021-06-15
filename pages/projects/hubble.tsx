@@ -31,7 +31,7 @@ const Hubble = () => {
         <Header />
       </div>
       <div
-        className="pl-16 duration-1000 relative transform transition-all translate-y-96 ease-out"
+        className="font-poppins pl-16 duration-1000 relative transform transition-all translate-y-96 ease-out"
         data-replace='{"translate-y-96": "translate-y-0" }'
       >
         <div className="md:pl-24 pb-12">
