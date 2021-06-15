@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const Header = () => {
 
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="relative bg-white border-b">
