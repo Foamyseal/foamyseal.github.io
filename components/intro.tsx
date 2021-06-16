@@ -11,7 +11,7 @@ export const Intro = () => {
                   <div className="text-center container font-poppins mx-auto text-2xl">
                       I'm a Combined Major in Computer Science student at the University of British Columbia. 
                       Currently working as a SWE intern @ hölmetrics. incoming et al. hubble is my 🍼. 
-                      WIP under construction.
+                      Site under construction.
                   </div>
                   </div>
                 </div>

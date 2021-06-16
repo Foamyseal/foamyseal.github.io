@@ -15,7 +15,7 @@ const AboutMe = () => {
       <div className="pb-8">
         <Header />
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="font-poppins max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div className="flex justify-center lg:w-0 lg:flex-1">
             <div className="max-w-xl container mx-auto">

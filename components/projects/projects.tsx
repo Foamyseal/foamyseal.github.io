@@ -30,7 +30,7 @@ const projectList = [
     button1Enable: false,
     button2Enable: false,
     image: "/projectImages/manuscript.png",
-    href: "./projects/hubble",
+    href: "./projects/ml-paper",
   },
   {
     title: "Statstify",
