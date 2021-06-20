@@ -36,13 +36,13 @@ export const Header = () => {
             <div className="md:hidden justify-end relative pr-3 py-3 sm:max-w-xl">
               <nav x-data="{ open: false }">
                 <button className="text-gray-500 w-10 h-10 relative focus:outline-none bg-white" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
 
                 </button>
               </nav>
             </div>
             {mobileMenuOpen &&
-              <div className="absolute top-0 inset-x-0 mt-20 transition transform origin-top-right md:hidden">
+              <div className="absolute top-0 inset-x-0 mt-20 transition duration-1000 transform origin-top-right md:hidden">
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-indigo-100">
                   <div className="">
                     <div className="flex items-center justify-center">
