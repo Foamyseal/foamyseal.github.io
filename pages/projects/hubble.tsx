@@ -31,7 +31,7 @@ const Hubble = () => {
         <Header />
       </div>
       <div
-        className="font-poppins pl-12 duration-1000 relative transform transition-all translate-y-96 ease-out"
+        className="font-poppins pl-12 duration-1000 relative transform transition-all translate-y-96 ease-out container mx-auto"
         data-replace='{"translate-y-96": "translate-y-0" }'
       >
         <div className="md:pl-12 pb-4">
@@ -46,18 +46,18 @@ const Hubble = () => {
             <div className="text-3xl lg:text-3xl w-lg font-bold pb-4 items-center">
               hubble
               <div className="space-x-4 items-center justify-center">
-              <span className="transform transition-all duration-150 inline-block bg-blue-400 bg-opacity-75 rounded px-1 py-1 text-xs font-thin text-blue-900  hover:shadow-sm  hover:scale-105">
-                Flutter
-              </span>
-              <span className="transform transition-all duration-150 inline-block bg-pink-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-pink-900  hover:shadow-sm  hover:scale-105">
-                Firebase
-              </span>
-              <span className="transform transition-all duration-150 inline-block bg-green-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-green-900   hover:shadow-sm  hover:scale-105">
-                Google Cloud Cloud Functions
-              </span>
-              <span className="transform transition-all duration-150 inline-block bg-yellow-400  bg-opacity-75 rounded px-1 py-1  text-xs font-thin text-yellow-900 hover:shadow-sm  hover:scale-105">
-                Google Natural Language
-              </span>
+                <span className="transform transition-all duration-150 inline-block bg-blue-400 bg-opacity-75 rounded px-1 py-1 text-xs font-thin text-blue-900  hover:shadow-sm  hover:scale-105">
+                  Flutter
+                </span>
+                <span className="transform transition-all duration-150 inline-block bg-pink-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-pink-900  hover:shadow-sm  hover:scale-105">
+                  Firebase
+                </span>
+                <span className="transform transition-all duration-150 inline-block bg-green-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-green-900   hover:shadow-sm  hover:scale-105">
+                  Google Cloud Cloud Functions
+                </span>
+                <span className="transform transition-all duration-150 inline-block bg-yellow-400  bg-opacity-75 rounded px-1 py-1  text-xs font-thin text-yellow-900 hover:shadow-sm  hover:scale-105">
+                  Google Natural Language
+                </span>
               </div>
             </div>
             <p className="pb-4">
@@ -130,6 +130,46 @@ const Hubble = () => {
               in the next few months or so, so just contact me if you wana hear
               about what I'm doing.
             </p>
+          </div>
+          <div className="pt-12 col-span-4">
+            <div className="pb-8">
+              <div className="pb-4">
+                <b>What it does?</b>
+              </div>
+              <p>
+                hubble, in essence, is a social networking app. Users can freely choose who they wish to connect with.
+                Our algorithm returns an emoji based on how we think you are compatible with the other user based on your interests, hobbies, clubs and courses.
+                😃 - Good Compatibility 😆 - Great Compatibility 🤩 - Amazing Compatibility
+                Once you connect with someone, you can chat with them using the built-in chat feature,
+                where you can send images about the lab you missed or talk about anything school. (or maybe not).
+              </p>
+            </div>
+            <div className="pb-8">
+              <div className="pb-4">
+                <b>How did Google Cloud help?</b>
+              </div>
+              <div>
+                <p>
+                  Jerry was an amazing mentor who gave us great insight on how to organize our data on Firebase,
+                  and how we could optimize queries and save on them by caching our data locally. He's also a pretty cool guy so you can say his coolness made the project a lot more cool.
+                  Due to the ability to increase our team size, we were also able to take on a UI designer and another Back-end developer at the beginning of this project
+                  (shoutout Sarah Dang, Dang! She's kinda cool and Steven Le, Le best refactorer) to help us with ideating our new design with Flutter and refactoring our algorithm.
+                  We were also able to use the funds by spamming the database and cloud functions with queries/invocations. Neat to see how cheap it is to operate Firebase and the NLP though.
+                </p>
+              </div>
+              </div>
+              <div className="pb-8">
+              <div className="pb-4">
+                <b>How it was built</b>
+              </div>
+              <div>
+                <p>
+                  hubble was built using Flutter as it's front-end to create an intuitive and user-friendly interface for both iOS and Android users. (no more only iOS!) Our custom matching algorithm was implemented in JavaScript via Node.js hosted on Google Cloud Functions, which calls open Google's Natural Language Processing (NLP) to parse and compare user data.
+                  The algorithm then returns scores for each user on the database based on a weighted heuristic from your own data, which is then assigned an emoji for you to see. The database uses Firebase's Cloud Firestore and Cloud Storage to handle data about users!
+                </p>
+              </div>
+             
+            </div>
           </div>
         </div>
       </div>

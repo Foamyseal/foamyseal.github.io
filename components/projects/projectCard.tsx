@@ -36,8 +36,8 @@ export const ProjectCard = ({ project }) => {
                           <Image
                             src={project.image}
                             alt="beans"
-                            height={800}
-                            width={800}
+                            height={850}
+                            width={850}
                             className="rounded-xl"
                           />
                         )}

@@ -20,7 +20,7 @@ const MlPaper = () => {
   return (
     <>
       <Head>
-        <title>ML analysis of COVID-19 Vaccine Uptake - Martin Au-yeung</title>
+        <title>Statstify - Martin Au-yeung</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css?family=Poppins"
@@ -44,40 +44,27 @@ const MlPaper = () => {
         <div className="grid md:grid-cols-9 grid-cols-1 gap-2 space-x-4">
           <div className="md:pl-12 col-span-4 h-36">
             <div className="text-3xl lg:text-3xl w-lg font-bold pb-4 items-center">
-              ML-assisted Predictive Modeling of Vaccination Uptake in US
-              Counties
-              <div className="space-x-4 items-center justify-center">
-                <span className="transform transition-all duration-150 inline-block bg-blue-400 bg-opacity-75 rounded px-1 py-1 text-xs font-thin text-blue-900  hover:shadow-sm  hover:scale-105">
-                  Python
-                </span>
-                <span className="transform transition-all duration-150 inline-block bg-pink-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-pink-900  hover:shadow-sm  hover:scale-105">
-                  XGBoost
-                </span>
+               Statstify
+               <div className="space-x-4 items-center justify-center">
+              <span className="transform transition-all duration-150 inline-block bg-blue-400 bg-opacity-75 rounded px-1 py-1 text-xs font-thin text-blue-900  hover:shadow-sm  hover:scale-105">
+                React
+              </span>
+              <span className="transform transition-all duration-150 inline-block bg-pink-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-pink-900  hover:shadow-sm  hover:scale-105">
+                Node.js
+              </span>
+              <span className="transform transition-all duration-150 inline-block bg-green-400 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-green-900   hover:shadow-sm  hover:scale-105">
+                Spotify API
+              </span>
               </div>
             </div>
             <p className="pb-4">
-              Queena literally just called me and asked if I wanted to do this
-              with her. I was like why not, lets gooo!!
+              I wanted to make a spotify app that showed my throwback songs and tell me a lot more about how I listen, so I did just that.
             </p>
-            <b className="pb-1">Role:</b>
-            <p className="pb-1">"ML analysis coder guy" - Queena</p>
             <b className="pb-1">Timeline:</b>
-            <p className="pb-1"> June 2021 - Present</p>
-            <b className="pb-1">Team:</b>
-            <p className="pb-1">
-              Me, Queena Cheong, Stephanie Quon, Katsy Concepcion
-            </p>
+            <p className="pb-1">August 2020</p>
           </div>
           <div className="position-relative col-span-4">
-            <iframe
-              width="615"
-              height="330"
-              src="https://www.youtube.com/embed/HFfNOsBgR3k"
-              title="Machine learning-based predictive modelling of COVID-19 vaccination uptake within U.S. Counties."
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+          
           </div>
           <div className="md:pl-8 col-span-4 pt-12">
             <div className="pb-4">

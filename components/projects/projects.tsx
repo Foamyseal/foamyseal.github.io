@@ -21,7 +21,7 @@ const projectList = [
     title: "ML-assisted Predictive Modeling of Vaccination Uptake in US Counties",
     description:
       "Assist ongoing vaccination campaigns by predicting COVID-19 vaccination uptake percentage in US counties. Identify key sociodemographic factors driving decision to get vaccinated for COVID-19. Pending publication",
-    award1: "Current Top 15 Finalist of the 2021 Big Data Undergraduate Challenge by STEM Fellowship",
+    award1: "Hoffman La-Roche Infodemic Research Solutions Award - 3rd Prize ($400) & Top 15 Research Paper",
     award2: "",
     buttonText1: "",
     buttonText2: "",
@@ -45,7 +45,7 @@ const projectList = [
     button1Enable: true,
     button2Enable: true,
     image: "/projectImages/statstify.png",
-    href: "./projects/hubble",
+    href: "./projects/statstify",
   },
   {
     title: "minecraft-sisters",
