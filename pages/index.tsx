@@ -15,11 +15,14 @@ const App = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
         <meta name="description" content={description}></meta>
-        <meta property="og:title" content={appTitle} key="ogtitle" />
-+       <meta property="og:description" content={description} key="ogdesc" />
+        <meta name="title" property="og:title" content={appTitle} key="ogtitle" />
+        <meta property="og:site_name" content="Martin Au-yeung's Portfolio Site" />
+        <meta name="description" property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content="https://martinauyeung.com/" />
         <meta property="og:type" content="website" /> 
-        <meta property="og:image" content="http://martinauyeung.com/martinauyeungimage.jpeg" key="ogimage" />
+        <meta name="image" property="og:image" content="http://martinauyeung.com/martinauyeungimage.jpeg" key="ogimage" />
+        <meta name="author" content="Martin Au-yeung"></meta>
+        
       </Head>
       <div className="pb-8">
           <Header />
