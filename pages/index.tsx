@@ -19,7 +19,7 @@ const App = () => {
 +       <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:url" content="https://martinauyeung.com/" />
         <meta property="og:type" content="website" /> 
-        <meta property="og:image" content="https://martinauyeung.com/martinauyeungimage.jpg" key="ogimage" />
+        <meta property="og:image" content="https://martinauyeung.com/martinauyeungimage.jpeg" key="ogimage" />
       </Head>
       <div className="pb-8">
           <Header />
