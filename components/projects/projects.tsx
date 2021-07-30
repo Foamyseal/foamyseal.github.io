@@ -54,7 +54,7 @@ const projectList = [
     award1: "",
     award2: "",
     image: "/projectImages/minecraft.png",
-    href: "./projects/hubble",
+    href: "./projects/minecraft-sisters",
   },
   {
     title: "TripSuite",
@@ -63,7 +63,7 @@ const projectList = [
     award1: "",
     award2: "",
     image: "/projectImages/tripsuite.png",
-    href: "./projects/hubble",
+    href: "./projects/tripsuite",
   },
   {
     title: "PaymentPal",
@@ -72,7 +72,7 @@ const projectList = [
     award1: "",
     award2: "",
     image: "/projectImages/paymentpal.png",
-    href: "./projects/hubble",
+    href: "./projects/paymentpal",
   },
   {
     title: "WeatherWear",
@@ -81,7 +81,7 @@ const projectList = [
     award1: "",
     award2: "",
     image: "/projectImages/weather.png",
-    href: "./projects/hubble",
+    href: "",
   },
   {
     title: "upass auto-renew",
@@ -90,7 +90,7 @@ const projectList = [
     award1: "",
     award2: "",
     image: "/projectImages/upass.png",
-    href: "./projects/hubble",
+    href: "",
   },
   {
     title: "MFTM",

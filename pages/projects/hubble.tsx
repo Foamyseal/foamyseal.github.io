@@ -73,7 +73,7 @@ const Hubble = () => {
             <b className="pb-1">Former Team Members:</b>
             <p className="pb-1"> Anshay Saboo, Steven Le, Nemo Wax</p>
           </div>
-          <div className="position-relative col-span-4">
+          <div className="col-span-4">
             <iframe
               width="615"
               height="330"
@@ -84,7 +84,7 @@ const Hubble = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="md:pl-8 col-span-4 pt-12">
+          <div className="md:pl-8 col-span-4 lg:pt-20 xs:pt-12">
             <div className="pb-4">
               <b>Background</b>
             </div>
@@ -131,7 +131,7 @@ const Hubble = () => {
               about what I'm doing.
             </p>
           </div>
-          <div className="pt-12 col-span-4">
+          <div className="lg:pt-20 xs:pt-12 col-span-4">
             <div className="pb-8">
               <div className="pb-4">
                 <b>What it does?</b>

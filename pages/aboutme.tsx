@@ -1,5 +1,6 @@
 import { Header } from "../components/header";
 import Head from "next/head";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -20,6 +21,13 @@ const AboutMe = () => {
           <div className="flex justify-center lg:w-0 lg:flex-1">
             <div className="max-w-xl container mx-auto">
               <div className="pb-8">
+                <div className="pb-4">
+                  <Link href="/">
+                    <div className="text-lg lg:text-lg font-bold hover:text-gray-500 pb-4">
+                      <p> ↵ back to home</p>{" "}
+                    </div>
+                  </Link>
+                </div>
                 <a href="#">
                   <div className="text-3xl lg:text-3xl font-bold hover:text-gray-500 pb-4">
                     My Story into CS 😮‍💨{" "}
