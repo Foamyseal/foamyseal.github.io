@@ -8,7 +8,7 @@ export const Footer = () => {
           <div className="flex sm:grid-rows-2 justify-between items-center py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
-                <a className="text-lg font-light text-gray-700">
+                <a className="text-sm md:text-lg font-light text-gray-700">
                   © 2021 Martin Au-yeung
                 </a>
               </Link>
