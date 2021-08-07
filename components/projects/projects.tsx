@@ -68,7 +68,7 @@ const projectList = [
   {
     title: "PaymentPal",
     description:
-      "Social Connection app with smart-matching NLP compatibility scoring algorithm, messaging and Spotify sharing. Made for iOS and Android",
+      "Simple withdrawal and deposit simulator built using Java and Swing, for my Software Construction class (UBC CPSC 210 2020W)",
     award1: "",
     award2: "",
     image: "/projectImages/paymentpal.png",
@@ -95,11 +95,11 @@ const projectList = [
   {
     title: "MFTM",
     description:
-       "Python program that takes in spreadsheet data from ICBC that details yearly invovled fatality group and produces a pie chart to calculate the highest average percentage of Motor Vehicle fatality type per year across 7 year time period to determine which method of transporation is the most dangerous.",
+       "Python program that takes in spreadsheet data from ICBC that details yearly invovled fatality group and produces a pie chart to calculate the highest average percentage of Motor Vehicle fatality type per year across 7 year time period to determine which method of transporation is the most dangerous. Built for Introduction to Systematic Program Design (CPSC 103 2019W)",
     award1: "",
     award2: "",
     image: "/projectImages/cs103.png",
-    href: "./projects/hubble",
+    href: "",
   },
 ];
 
