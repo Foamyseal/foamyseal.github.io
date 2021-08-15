@@ -2,6 +2,7 @@ import { Header } from "../../components/header";
 import Head from "next/head";
 import Link from "next/link";
 import { useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Statstify = () => {
   useEffect(() => {
@@ -44,7 +45,8 @@ const Statstify = () => {
         <div className="grid md:grid-cols-9 grid-cols-1 gap-2 space-x-4">
           <div className="md:pl-12 col-span-4 h-36">
             <div className="text-3xl lg:text-3xl w-lg font-bold pb-4 items-center">
-               Statstify
+               Statstify 
+               <FontAwesomeIcon icon={['fab', 'facebook']} />
                <div className="space-x-4 items-center justify-center">
               <span className="transform transition-all duration-150 inline-block bg-blue-400 bg-opacity-75 rounded px-1 py-1 text-xs font-thin text-blue-900  hover:shadow-sm  hover:scale-105">
                 React
@@ -61,14 +63,14 @@ const Statstify = () => {
               I wanted to make a spotify app that showed my throwback songs and tell me a lot more about how I listen, so I did just that.
             </p>
             <b className="pb-1">Timeline:</b>
-            <p className="pb-1">August 2020</p>
+            <p className="pb-1">Spent about a week in Late August 2020</p>
           </div>
           <div className="position-relative col-span-4">
           
           </div>
           <div className="md:pl-8 col-span-4 pt-12">
             <div className="pb-4">
-              <b>Inspiration</b>
+              <b>How it works:</b>
             </div>
             <p className="pb-2">
               haha... ill fill this out ... sometime
