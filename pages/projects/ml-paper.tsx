@@ -57,7 +57,7 @@ const MlPaper = () => {
             </div>
             <p className="pb-4">
               Queena literally just called me and asked if I wanted to do this
-              with her. I was like why not, lets gooo!!
+              with her.
             </p>
             <b className="pb-1">Role:</b>
             <p className="pb-1">"ML analysis coder guy" - Queena</p>
@@ -84,34 +84,13 @@ const MlPaper = () => {
               <b>Abstract</b>
             </div>
             <p className="pb-2">
-              While the COVID-19 pandemic has left an unprecedented impact
-              globally, countries such as the United States of America have
-              reported the most significant incidence of COVID-19 cases
-              worldwide. Within the United States of America, various
-              sociodemographic factors have played a vital role in developing
-              regional disparities. The presence of regional disparities has
-              resulted in the unequal spread of disease between U.S. counties,
-              underscoring the need for efficient and accurate predictive
-              modelling strategies to inform public health officials and reduce
-              the burden on healthcare systems. Furthermore, despite the
-              widespread accessibility of COVID-19 vaccines across the United
-              States of America, vaccination rates have become stagnant,
-              necessitating predictive modelling to identify factors impacting
-              vaccination uptake. This study utilizes sociodemographic data and
-              machine learning to develop a predictive model for COVID-19
-              vaccination uptake on a county level. Sociodemographic data on
-              fully vaccinated and unvaccinated individuals were sourced from
-              several online databases, such as the United States Centre for
-              Disease Control and United States Census Bureau COVID-19 Site.
-              Machine learning analysis was performed using XGBoost and
-              sociodemographic data. Our model predicted COVID-19 vaccination
-              uptake across US countries with 59% accuracy. The model also
-              identified important sociodemographic features used to predict
-              vaccination uptake; location, education, ethnicity, and income.
-              Lastly, the model produced a visually accurate choropleth- which
-              can be used by authorities in future pandemics to visualize and
-              prioritize areas of low vaccination and design targeted
-              vaccination campaigns.
+              While the COVID-19 pandemic has left an unprecedented impact globally, countries similar to the United States of America (US) have reported the most significant incidence of COVID-19 cases worldwide. Within the US, various sociodemographic factors have played an essential role in the creation of regional disparities. 
+              Regional disparities have resulted in the unequal spread of disease between US counties, underscoring the need for efficient and accurate predictive modelling strategies to inform public health officials and reduce the burden on healthcare systems. 
+              Furthermore, despite the widespread accessibility of COVID-19 vaccines across the US, vaccination rates have become stagnant, necessitating predictive modelling to identify essential factors impacting vaccination uptake. 
+              We sourced sociodemographic data on fully vaccinated and unvaccinated individuals from several online databases, such as the US Centre for Disease Control and US Census Bureau COVID-19 Site. We performed machine learning analysis using XGBoost and 83 sociodemographic factors. 
+              From this, our model predicted COVID-19 vaccination uptake across US countries with 62% accuracy. 
+              In addition, it identified location, education, ethnicity, income and household access to the internet as the most critical sociodemographic features in predicting vaccination uptake in US counties. 
+              Lastly, the model produced a choropleth demonstrating areas of low and high vaccination rates, which healthcare authorities can use in future pandemics to visualize and prioritize areas of low vaccination and design targeted vaccination campaigns.
             </p>
             <p className="pb-2"></p>
             <p className="pb-2"></p>
