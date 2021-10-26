@@ -69,7 +69,6 @@ const PaymentPal = () => {
             </div>
             <p className="pb-2">
               haha... well I haa to do a class project.. ill fill this out ... sometime
-  
             </p>
             <p className="pb-2"></p>
             <p className="pb-2"></p>
