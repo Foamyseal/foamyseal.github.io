@@ -10,7 +10,7 @@ export const Intro = () => {
                   </a>
                   <div className="text-center container font-poppins mx-auto text-2xl">
                       I'm a Combined Major in Computer Science student at the University of British Columbia. 
-                      Currently working as a SWE intern @ BlackBerry. Formerly @ Hölmetrics. hubble is my 🍼. 
+                      Currently working as a SWE intern @ BlackBerry. I'm a published scholar. hubble is my 🍼.
                   </div>
                   </div>
                 </div>

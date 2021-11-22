@@ -14,9 +14,9 @@ const projectList = [
   {
     title: "ML-assisted Predictive Modeling of Vaccination Uptake in US Counties",
     description:
-      "Assist ongoing vaccination campaigns by predicting COVID-19 vaccination uptake percentage in US counties. Identify key sociodemographic factors driving decision to get vaccinated for COVID-19. Accepted for publication in JMIR (Impact Factor: 5.43) DOI: 10.2196/preprints.33231",
+      "Assist ongoing vaccination campaigns by predicting COVID-19 vaccination uptake percentage in US counties. Identify key sociodemographic factors driving decision to get vaccinated for COVID-19.  DOI: 10.2196/preprints.33231",
     award1: "Hoffman La-Roche Infodemic Research Solutions Award - 3rd Prize ($400) & Top 15 Research Paper",
-    award2: "",
+    award2: "Published in JMIR (Impact Factor: 5.43)",
     image: "/projectImages/manuscript.png",
     href: "./projects/ml-paper",
   },
