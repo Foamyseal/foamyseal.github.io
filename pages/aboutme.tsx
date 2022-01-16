@@ -36,7 +36,7 @@ const AboutMe = () => {
                 <div className="text-lg">
                   <p className="pb-4">
                     {" "}
-                    I'm (he/him) an old (21 y/o) 5th year @ UBC majoring in
+                    I'm (he/him) an old (22 y/o) 5th year @ UBC majoring in
                     Computer Science, Biological Sciences & Earth, and Ocean
                     Sciences. I recently switched into this program from Biology
                     in January 2020 with the intent to pursue software
@@ -94,9 +94,8 @@ const AboutMe = () => {
                     what happens I guess.
                   </p>
                   <p className="pb-4">
-                    Currently Gold 2 in Valorant and peaked Plat 5 in League of
-                    Legends. Professional @ dealing with malding teammates.
-                    sheeeeesh.
+                    Peaked plat in Valorant and in League of
+                    Legends. Professional @ dealing with malding teammates so you know I can work with anyone ;)
                   </p>
                 </div>
               </div>
