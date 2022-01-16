@@ -68,13 +68,12 @@ const Statstify = () => {
           <div className="position-relative col-span-4">
           
           </div>
-          <div className="md:pl-8 col-span-4 pt-12">
-            <div className="pb-4">
+          <div className="md:pl-8 col-span-4 pt-16">
+            <div className="">
               <b>How it works:</b>
             </div>
             <p className="pb-2">
-              haha... ill fill this out ... sometime
-  
+            To find out more about your listening habits, such as the mood of your songs, your current top artists and songs. Also, find out your throwback songs that you might remember!
             </p>
             <p className="pb-2"></p>
             <p className="pb-2"></p>
