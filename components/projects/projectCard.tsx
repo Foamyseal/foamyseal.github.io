@@ -45,13 +45,13 @@ export const ProjectCard = ({ project }) => {
                       <div className="col-span-2">
                         <div className="">
                           <div>
-                            <div className="font-semibold font-poppins text-2xl mb-2 ml-2 dark:text-white">
+                            <div className="font-semibold font-poppins text-2xl mb-2 ml-2">
                               {project.title}
                             </div>
-                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600 dark:text-white">
+                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600">
                               {project.award1}
                             </div>
-                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600 dark:text-white">
+                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600">
                               {project.award2}
                             </div>
                             <div className="my-2 mx-2 mr-5">

@@ -94,8 +94,7 @@ const AboutMe = () => {
                     what happens I guess.
                   </p>
                   <p className="pb-4">
-                    Peaked plat in Valorant and in League of
-                    Legends. Professional @ dealing with malding teammates so you know I can work with anyone ;)
+                    Plat in Valorant. Professional @ dealing with malding teammates so you know I can work with anyone ;)
                   </p>
                 </div>
               </div>
