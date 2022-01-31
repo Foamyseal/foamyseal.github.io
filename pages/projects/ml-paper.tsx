@@ -97,11 +97,12 @@ const MlPaper = () => {
               <b>Challenges Faced:</b>
             </div>
             <p className="pb-2">
-              While the COVID-19 pandemic has left an unprecedented impact globally, countries similar to the United States of America (US) 
-              have reported the most significant incidence of COVID-19 cases worldwide. Within the US, various sociodemographic factors have played an essential role in the creation of regional disparities. Regional disparities have resulted in the unequal spread of disease between US counties, underscoring the need for efficient and accurate predictive modelling strategies to inform public health officials and reduce the burden on healthcare systems. 
-              Furthermore, despite the widespread accessibility of COVID-19 vaccines across the US, vaccination rates have become stagnant, necessitating predictive modelling to identify essential factors impacting vaccination uptake. We sourced sociodemographic data on fully vaccinated and unvaccinated individuals from several online databases, such as the US Centre for Disease Control and US Census Bureau COVID-19 Site. 
-              We performed machine learning analysis using XGBoost and 83 sociodemographic factors. From this, our model predicted COVID-19 vaccination uptake across US countries with 62% accuracy. In addition, it identified location, education, ethnicity, income and household access to the internet as the most critical sociodemographic features in predicting vaccination uptake in US counties. 
-              Lastly, the model produced a choropleth demonstrating areas of low and high vaccination rates, which healthcare authorities can use in future pandemics to visualize and prioritize areas of low vaccination and design targeted vaccination campaigns.
+              One of the biggest challenges I faced was putting my thoughts into good quality writing (I really have to thank Katsy and Queena for this.) However, I think overall the biggest challenge was time. 
+              During the phase when we created this paper, I had a lot of outside commitments that prevented me spending the same amount of time I had on hubble. I also had not that much experience with Machine Learning. 
+              To combat this, I was efficient in the way I spent my time, and sought help whenever possible to make sure I was never blocked for more than a few hours at a time. I am very grateful to have the support of my 
+              former coworkers at Holmetrics, who's data engineering team supported me in my curiosity of the direction I wanted to acheive with the paper, and our professor mentor, who gave valuable advice on what analyses
+              were neccesary to formulate a proper argument in our paper. Not only did I learn how to use a machine learning algorithm and create models out of it, but I learned how to present in such a way which coulds
+              state my scientific argument in a way thats publically appealling. What an amazing learning journey.
             </p>
         </div>
       </div>

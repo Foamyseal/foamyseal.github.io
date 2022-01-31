@@ -20,7 +20,7 @@ const MlPaper = () => {
     return (
         <>
             <Head>
-                <title>ML analysis of COVID-19 Vaccine Uptake - Martin Au-yeung</title>
+                <title>TripSuite - Martin Au-yeung</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link
                     href="https://fonts.googleapis.com/css?family=Poppins"

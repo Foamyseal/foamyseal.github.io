@@ -57,7 +57,7 @@ const AboutMe = () => {
                     while I had a mouth full of rice. His argument was: "If
                     you're not even enjoying yourself right now, what do you
                     have to lose to make the jump?" I had already been
-                    interested in CS prior (took AP CS in highschool, made a my
+                    interested in CS prior (took AP CS in highschool, made my
                     own website for photography prior) and was really interested
                     in being able to create a product I or someone could use. So
                     I just said, screw it and registered. It ended up being one

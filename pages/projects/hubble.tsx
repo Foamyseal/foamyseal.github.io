@@ -34,7 +34,7 @@ const Hubble = () => {
         className="md:grid md:grid-cols-9 font-poppins pl-4 duration-1000 relative transform transition-all translate-y-96 ease-out"
         data-replace='{"translate-y-96": "translate-y-0" }'
       >
-        <div className="md:flex md:flex-col md:pl-12 md:col-span-4 pb-8">
+        <div className="md:flex md:flex-col md:pl-12 md:col-span-4 pb-8 pr-4">
           <div className="pb-4">
             <Link href="/">
               <div className="text-md lg:text-lg font-bold hover:text-gray-500 pb-4">
@@ -105,8 +105,8 @@ const Hubble = () => {
             </p>
             <p className="pb-2">
               Over the course of the months, from October to April, we slowly
-              worked on the app. Old members left hte team due to other
-              commitmnets, but I personally wanted to see it through. I worked
+              worked on the app. Old members left the team due to other
+              committments, but I personally wanted to see it through. I worked
               closely with Linda and our Google mentor, Jerry, to rework the
               entire front-end using Flutter from Swift (since I wanted to be
               able to have both iOS and Android users) and worked really hard to
@@ -168,6 +168,19 @@ const Hubble = () => {
                 Due to the ability to increase our team size, we were also able to take on a UI designer and another Back-end developer at the beginning of this project
                 (shoutout Sarah Dang, Dang! She's kinda cool and Steven Le, Le best refactorer) to help us with ideating our new design with Flutter and refactoring our algorithm.
                 We were also able to use the funds by spamming the database and cloud functions with queries/invocations. Neat to see how cheap it is to operate Firebase and the NLP though.
+              </p>
+            </div>
+          </div>
+          <div className="pb-8">
+            <div className="pb-4">
+              <b>Challenges</b>
+            </div>
+            <div>
+              <p>
+                There were many challenges I faced in building this project. Firstly, it was my first ever full stack project of this scale. Secondly, I had no idea how to build a mobile application from scratch. With this all in mind,
+                I focused on just doing it. I envisioned a piece of what I wanted (for example, how I would create an authentication system that stored users) and would Google it. (Thanks Google ahah) I also continously asked
+                my team members for opinions and support throughout, and reached out to Jerry whenever I could if there was a concept I couldn't specifically research on my own, or if there was some oversight I had missed when designing.
+                All in all, I was really happy to face this challenge because it really taught me about having discipline (I reworked the app in about a month, spending 8 hours a day on it) and just sometimes the best way to learn is just to do it.
               </p>
             </div>
           </div>
