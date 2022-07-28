@@ -47,17 +47,17 @@ export const Header = () => {
                   <div className="">
                     <div className="flex items-center justify-center">
                       <div className="py-6 px-5 space-y-6">
-                        <div className="grid grid-cols-3 gap-y-4 gap-x-8">
+                        <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                           <Link href="/aboutme">
                             <a className="whitespace-nowrap font-poppins text-center text-base font-medium text-gray-900 pr-6 hover:text-gray-900">
                               About Me
                             </a>
                           </Link>
-                          <Link href="/martin-auyeung-resume.pdf">
+                          {/* <Link href="/martin-auyeung-resume.pdf">
                             <a className="whitespace-nowrap text-center font-poppins text-base font-medium text-gray-900 pr-6 hover:text-gray-900">
                               Resume
                             </a>
-                          </Link>
+                          </Link> */}
                           <Link href="mailto:martin.auyeung1@gmail.com">
                             <a className="whitespace-nowrap  text-center  font-poppins text-base font-medium text-gray-900 pr-6 hover:text-gray-900">
                               Contact Me
