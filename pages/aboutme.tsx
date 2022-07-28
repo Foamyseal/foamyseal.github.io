@@ -40,7 +40,8 @@ const AboutMe = () => {
                     Computer Science, Biological Sciences & Earth, and Ocean
                     Sciences. I recently switched into this program from Biology
                     in January 2020 with the intent to pursue software
-                    engineering as a career.
+                    engineering as a career. I am currently an incoming SWE Intern @ LinkedIn and 
+                    I previously interned at BlackBerry and Holmetrics
                   </p>
 
                   <p className="pb-4">
@@ -83,7 +84,8 @@ const AboutMe = () => {
                     working, live music makes it even better (ILLENIUM Ascend
                     Tour/Throwback Sets were amazing) I'd love to share with you
                     the music I like and want to hear what you like. Open to
-                    anything.
+                    anything. I also recently attended EDC Las Vegas 2022, and saw 
+                    Porter Robinson and Illenium twice that week.
                   </p>
                   <p className="pb-4">
                     You can probably catch me in my spare time just really doing
