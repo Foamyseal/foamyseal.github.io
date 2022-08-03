@@ -1,5 +1,5 @@
 import { ProjectCard } from "./projectCard";
-import Link from 'next/link'
+
 
 const projectList = [
   {
@@ -89,7 +89,7 @@ export const Projects = () => {
   return (
     <div className="container mx-auto">
       <h1 className="font-poppins text-center font-semibold items-center text-xl">
-        my work
+        my projects
       </h1>
       <div className="text-center -mt-4 text-5xl animate-bounce" >ˬ</div>
       <div className="flex-col px-4 sm:px-6">

@@ -31,6 +31,9 @@ const App = () => {
           <div className="pb-2">
             <Intro />
           </div>
+          {/* <div className="pb-8">
+            <Experiences />
+          </div> */}
           <div className="pb-8">
             <Projects />
           </div>
