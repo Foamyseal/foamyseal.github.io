@@ -16,7 +16,7 @@ const projectList = [
     description:
       "Assist ongoing vaccination campaigns by predicting COVID-19 vaccination uptake percentage in US counties. Identify key sociodemographic factors driving decision to get vaccinated for COVID-19. DOI: 10.2196/33231",
     award1: "Hoffman La-Roche Infodemic Research Solutions Award - 3rd Prize ($400) & Top 15 Research Paper",
-    award2: "Published in JMIR (Impact Factor: 5.43) | DOI: 10.2196/33231",
+    award2: "Published in JMIR (Impact Factor: 7.08) | DOI: 10.2196/33231",
     image: "/projectImages/manuscript.png",
     href: "./projects/ml-paper",
   },
