@@ -61,7 +61,7 @@ const BioToCsUBC = () => {
                   <p className="pb-4">
                     My description of my personal experience on getting my first internship @ Holmetrics.
                   </p>
-                  <p className="pb-4">
+                  <p className="">
                     COVID-19 was truly the time chamber of gains. It set the pace of how I was able to land the position. reddit.com/r/csmajors is also a great resource, albeit toxic.
                     Use carefully.
                   </p>
