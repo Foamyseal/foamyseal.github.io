@@ -21,6 +21,11 @@ export const Header = () => {
                   About Me
                 </a>
               </Link>
+              <Link href="/blog">
+                <a className="whitespace-nowrap font-poppins text-base font-medium text-gray-500 pr-6 hover:text-gray-900">
+                  Blog
+                </a>
+              </Link>
               <Link href="/martin-auyeung-resume.pdf">
                 <a className="font-poppins whitespace-nowrap text-base font-medium text-gray-500 pr-6 hover:text-gray-900">
                   Resume
