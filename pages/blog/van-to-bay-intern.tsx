@@ -20,7 +20,7 @@ const VanToBayIntern = () => {
   return (
     <>
       <Head>
-        <title>About Me - Martin Au-yeung</title>
+        <title>Van to Bay Intern Guide - Martin Au-yeung</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css?family=Poppins"
