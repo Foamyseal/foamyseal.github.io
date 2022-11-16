@@ -33,7 +33,7 @@ export const Header = () => {
               </Link>
               <Link href="https://github.com/Foamyseal">
                 <a className="font-poppins whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-                GitHub
+                  GitHub
                 </a>
               </Link>
               <a
@@ -61,6 +61,11 @@ export const Header = () => {
                           <Link href="/aboutme">
                             <a className="whitespace-nowrap font-poppins text-center text-base font-medium text-gray-900 pr-6 hover:text-gray-900">
                               About Me
+                            </a>
+                          </Link>
+                          <Link href="/blog">
+                            <a className="whitespace-nowrap font-poppins text-base font-medium text-gray-500 pr-6 hover:text-gray-900">
+                              Blog
                             </a>
                           </Link>
                           <Link href="/martin-auyeung-resume.pdf">
