@@ -4,6 +4,7 @@ import Script from 'next/script'
 import { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { GTM_ID, pageview } from '../lib/gtm'
+import { ThemeProvider } from 'next-themes'
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter()
@@ -31,7 +32,9 @@ const App = ({ Component, pageProps }: AppProps) => {
           `
         }
       </Script>
-      <Component {...pageProps} />)
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   )
 };

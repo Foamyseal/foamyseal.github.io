@@ -2,6 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { GTM_ID } from '../lib/gtm'
 
 export default class MyDocument extends Document {
+
   render() {
     return (
       <Html>
@@ -22,3 +23,4 @@ export default class MyDocument extends Document {
     )
   }
 }
+

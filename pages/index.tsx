@@ -3,11 +3,14 @@ import { Header } from "../components/header";
 import { Footer } from "../components/footer";
 import { Intro } from "../components/intro";
 import { Projects } from "../components/projects/projects";
+import { toggleDarkMode } from "../components/functions/theme";
 
 const appTitle = "Martin Au-yeung";
 const description = "Martin Au-yeung's cool portfolio site. Built with NextJS";
 
+
 const App = () => {
+  const [colorTheme, setTheme] = toggleDarkMode(); 
   return (
     <>
       <Head>
@@ -22,12 +25,9 @@ const App = () => {
         <meta property="og:type" content="website" /> 
         <meta name="image" property="og:image" content="/img.png" key="ogimage" />
         <meta name="author" content="Martin Au-yeung"></meta>
-        
       </Head>
-      <div className="pb-8">
-          <Header />
-        </div>
-        <body>
+        <Header />
+        <body className="dark:bg-slate-900">
           <div className="pb-2">
             <Intro />
           </div>

@@ -30,7 +30,7 @@ export const ProjectCard = ({ project }) => {
               <div className="container mx-auto">
                 <div className="relative m-auto">
                   <div className="flex-none md:flex">
-                    <div className="z-50 p-3 mt-10 max-w-3xl w-lg grid lg:grid-cols-3 grid-cols-1 cursor-default select-none rounded-lg bg-white lg:hover:bg-blue-50 shadow-xl">
+                    <div className="z-50 p-3 mt-10 max-w-3xl w-lg grid lg:grid-cols-3 grid-cols-1 cursor-default select-none rounded-lg bg-white dark:bg-slate-800 lg:hover:bg-blue-100 shadow-xl">
                       <div className="md:ml-5 rounded-full object-cover fitpl-8 h-full w-full lg:h-48 lg:w-48 lg:mb-0 mb-3 col-span-1">
                         {project.image.length > 0 && (
                           <Image
@@ -48,14 +48,14 @@ export const ProjectCard = ({ project }) => {
                             <div className="font-semibold font-poppins text-2xl mb-2 ml-2">
                               {project.title}
                             </div>
-                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600">
+                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600 dark:text-indigo-200">
                               {project.award1}
                             </div>
-                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600">
+                            <div className="font-poppins text-md mb-2 ml-2 text-indigo-600 dark:text-indigo-200">
                               {project.award2}
                             </div>
                             <div className="my-2 mx-2 mr-5">
-                              <p className="text-black font-poppins text-sm">
+                              <p className="text-black dark:text-slate-400 font-poppins text-sm">
                                 {project.description}
                               </p>
                             </div>

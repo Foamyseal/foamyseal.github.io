@@ -1,3 +1,5 @@
+import { toggleTheme } from "../pages/_document"
+
 export const Intro = () => {
     return (
           <>
@@ -6,7 +8,7 @@ export const Intro = () => {
                 <div className="flex justify-center lg:w-0 lg:flex-1">
                 <div className="max-w-xl mx-auto">
                   <a href="#">
-                    <div className="text-center text-6xl font-poppins lg:text-7xl font-bold hover:text-gray-500 pb-4">Hi, I'm Martin 👨🏻‍💻  </div>
+                    <div className="text-center text-6xl font-poppins lg:text-7xl font-bold hover:text-gray-500 pb-4" onClick={toggleTheme}>Hi, I'm Martin 👨🏻‍💻  </div>
                   </a>
                   <div className="text-center container font-poppins mx-auto text-2xl">
                       I'm a Combined Major in Computer Science student at the University of British Columbia. 

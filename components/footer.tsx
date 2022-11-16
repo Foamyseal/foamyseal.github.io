@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="relative bg-white border-t">
+    <div className="relative bg-white dark:bg-slate-900 light:border-t">
       <>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex sm:grid-rows-2 justify-between items-center py-6 md:justify-start md:space-x-10">
