@@ -4,12 +4,11 @@ import { BlogCard } from "./blogCard";
 
 const postDescList = [
     {
-        title: "Vancouver to Bay Area Intern",
+        title: "UBC Vancouver Student to Bay Area Intern Guide",
         date: "November 16th, 2022",
         description:
             "What to do as a student from UBC Vancouver interning in the bay without the support of co-op",
         image: '/blogImages/cardCovers/bay.jpg',
-        tag: 'Tech',
         href: "./blog/van-to-bay-intern",
     },
     {
@@ -21,7 +20,7 @@ const postDescList = [
         href: "./blog/first-internship",
     },
     {
-        title: "Switching from Bio to CS @ UBC",
+        title: "Switching from Biology to Computer Science @ UBC",
         date: "January 14th, 2020",
         description:
             "How and why I went from being a Bio major at UBC to pivot to tech @ UBC",
