@@ -1,5 +1,16 @@
 import { ProjectCard } from "./projectCard";
 
+const publications = [
+  {
+    title: "ML-assisted Predictive Modeling of Vaccination Uptake in US Counties",
+    description:
+      "Assist ongoing vaccination campaigns by predicting COVID-19 vaccination uptake percentage in US counties. Identify key sociodemographic factors driving decision to get vaccinated for COVID-19. DOI: 10.2196/33231",
+    award1: "Hoffman La-Roche Infodemic Research Solutions Award - 3rd Prize ($400) & Top 15 Research Paper",
+    award2: "Published in JMIR (Impact Factor: 7.08) | DOI: 10.2196/33231",
+    image: "/projectImages/manuscript.png",
+    href: "./projects/ml-paper",
+  }
+]
 
 const projectList = [
   {
@@ -10,15 +21,6 @@ const projectList = [
     award2: "Winner of COVID-19 Hackathon Fund by Google Cloud ($5000 & personalized Google SWE Mentorship)",
     image: '/projectImages/hubble/jquan.png',
     href: "./projects/hubble",
-  },
-  {
-    title: "ML-assisted Predictive Modeling of Vaccination Uptake in US Counties",
-    description:
-      "Assist ongoing vaccination campaigns by predicting COVID-19 vaccination uptake percentage in US counties. Identify key sociodemographic factors driving decision to get vaccinated for COVID-19. DOI: 10.2196/33231",
-    award1: "Hoffman La-Roche Infodemic Research Solutions Award - 3rd Prize ($400) & Top 15 Research Paper",
-    award2: "Published in JMIR (Impact Factor: 7.08) | DOI: 10.2196/33231",
-    image: "/projectImages/manuscript.png",
-    href: "./projects/ml-paper",
   },
   {
     title: "Statstify",
@@ -88,7 +90,21 @@ const projectList = [
 export const Projects = () => {
   return (
     <div className="container mx-auto">
-      <h1 className="font-poppins text-center font-semibold items-center text-xl">
+       <h1 className="font-poppins text-center font-semibold items-center text-xl">
+        my publication
+      </h1>
+      <div className="text-center -mt-4 text-5xl animate-bounce" >ˬ</div>
+      <div className="flex-col px-4 sm:px-6">
+        {publications.map((project, key) => {
+          return (
+            <ProjectCard
+              key={key}
+              project={project}
+            />
+          );
+        })}
+      </div>
+      <h1 className="font-poppins mt-12 text-center font-semibold items-center text-xl">
         my projects
       </h1>
       <div className="text-center -mt-4 text-5xl animate-bounce" >ˬ</div>
