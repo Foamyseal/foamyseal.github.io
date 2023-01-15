@@ -36,12 +36,15 @@ const AboutMe = () => {
                 <div className="text-lg">
                   <p className="pb-4">
                     {" "}
-                    I'm (he/him) an old (22 y/o) 5th year @ UBC majoring in
+                    I'm (he/him) an old (23 y/o) 6th year @ UBC majoring in
                     Computer Science, Biological Sciences & Earth, and Ocean
-                    Sciences. I recently switched into this program from Biology
+                    Sciences. I switched into this program from Biology
                     in January 2020 with the intent to pursue software
-                    engineering as a career. I am currently an incoming SWE Intern @ LinkedIn and 
-                    I previously interned at BlackBerry and Holmetrics
+                    engineering as a career, and after a 3 year journey, 
+                    I am currently a SWE Intern @ LinkedIn on the
+                    ML Infra - Deep Learning team.
+                    I also previously interned at BlackBerry and Holmetrics before
+                    I interned @ LinkedIn
                   </p>
 
                   <p className="pb-4">
@@ -84,8 +87,10 @@ const AboutMe = () => {
                     working, live music makes it even better (ILLENIUM Ascend
                     Tour/Throwback Sets were amazing) I'd love to share with you
                     the music I like and want to hear what you like. Open to
-                    anything. I also recently attended EDC Las Vegas 2022, and saw 
-                    Porter Robinson and Illenium twice that week.
+                    anything. I attended EDC Las Vegas 2022, and saw 
+                    Porter Robinson and Illenium twice that week. I
+                    also went to EZOO NYC 2022 (Martin Garrix, Porter, Subtronics, Seven Lions, SLANDER)
+                    and Second Sky 2022 (Porter, RL Grime, Virtual Self b2b G Jones, Skrillex) in the Bay Area.
                   </p>
                   <p className="pb-4">
                     You can probably catch me in my spare time just really doing
