@@ -10,9 +10,7 @@ export const Intro = () => {
                   </a>
                   <div className="text-center container font-poppins mx-auto text-2xl">
                       I'm a Combined Major in Computer Science student at the University of British Columbia. 
-                      Incoming SWE Intern @ <a className="text-blue-700" href="https://www.linkedin.com/">LinkedIn. </a>
-                      Previously @ <a className="text-indigo-800" href="https://www.blackberry.com/"> Blackberry </a> and 
-                      <a className="text-sky-600" href="https://www.holmetrics.com/"> Hölmetrics. </a>
+                      SWE Intern @ <a className="text-blue-700" href="https://www.linkedin.com/">LinkedIn on the ML Infra - Deep Learning team.</a>
                   </div>
                   </div>
                 </div>
