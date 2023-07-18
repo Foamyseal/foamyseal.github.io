@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Footer } from "../footer";
 import { BlogCard } from "./blogCard";
 
 
@@ -74,6 +75,9 @@ export const Blogs = () => {
                         />
                     );
                 })}
+            </div>
+            <div className="pt-8">
+                <Footer />
             </div>
         </div>
     );

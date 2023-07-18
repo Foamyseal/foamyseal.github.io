@@ -1,3 +1,4 @@
+import { Footer } from "../footer";
 import { ProjectCard } from "./projectCard";
 
 const publications = [
@@ -90,7 +91,7 @@ const projectList = [
 export const Projects = () => {
   return (
     <div className="container mx-auto">
-       <h1 className="font-poppins text-center font-semibold items-center text-xl">
+      <h1 className="font-poppins text-center font-semibold items-center text-xl">
         my publication
       </h1>
       <div className="text-center -mt-4 text-5xl animate-bounce" >ˬ</div>
@@ -117,6 +118,9 @@ export const Projects = () => {
             />
           );
         })}
+      </div>
+      <div className="pt-8">
+        <Footer />
       </div>
     </div>
   );
