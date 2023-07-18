@@ -44,14 +44,14 @@ export const Experiences = () => {
       <div className="font-poppins text-center text-lg items-center">
         {experienceList.map((experience, key) => {
           return (
-            <div className="pb-2"> {experience.position + " " + "@ " + experience.title} </div>
+            <div id={key.toString()} className="pb-2"> {experience.position + " " + "@ " + experience.title} </div>
           );
         })}
       </div>
       <div className="font-poppins text-center text-lg items-center">
         {projectList.map((project, key) => {
           return (
-            <div className="pb-2"> {project.name + project.link} </div>
+            <div id={key.toString()} className="pb-2"> {project.name + project.link} </div>
           );
         })}
       </div>

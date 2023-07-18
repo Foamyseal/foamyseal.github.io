@@ -44,16 +44,16 @@ export const Blogs = () => {
             <>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6">
                     <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-                        <div className="flex justify-center lg:w-0 lg:flex-1">
-                            <div className="max-w-xl mx-auto">
+                        <div className="items-center text-center justify-center lg:w-0 flex-1">
+                            <div className="container max-w-xl mx-auto">
                                 <div className="font-poppins max-w-7xl mx-auto px-4 sm:px-6">
                                     <Link href="/">
-                                        <div className="text-lg text-center lg:text-lg font-bold hover:text-gray-500 pb-4">
+                                        <div className="text-lg lg:text-lg font-bold hover:text-gray-500 pb-4">
                                             <p> ↵ back to home</p>{" "}
                                         </div>
                                     </Link>
                                 </div>
-                                <div className="text-center container font-poppins mx-auto text-2xl">
+                                <div className="font-poppins mx-auto text-2xl">
                                     my raw thoughts
                                 </div>
                             </div>
