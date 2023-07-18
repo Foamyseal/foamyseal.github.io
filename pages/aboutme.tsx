@@ -1,6 +1,8 @@
 import { Header } from "../components/header";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image"
+import { Footer } from "../components/footer";
 
 const AboutMe = () => {
   return (
@@ -30,78 +32,148 @@ const AboutMe = () => {
                 </div>
                 <a href="#">
                   <div className="text-3xl lg:text-3xl font-bold hover:text-gray-500 pb-4">
-                    My Story into CS 😮‍💨{" "}
+                    me {" "}
                   </div>
                 </a>
                 <div className="text-lg">
                   <p className="pb-4">
                     {" "}
-                    I'm (he/him) an old (23 y/o) 6th year @ UBC majoring in
+                    I'm Martin (he/him), a 23 y/o UBC graduand that majored in
                     Computer Science, Biological Sciences & Earth, and Ocean
                     Sciences. I switched into this program from Biology
                     in January 2020 with the intent to pursue software
-                    engineering as a career, and after a 3 year journey, 
-                    I am currently a SWE Intern @ LinkedIn on the
-                    ML Infra - Deep Learning team.
-                    I also previously interned at BlackBerry and Holmetrics before
-                    I interned @ LinkedIn
+                    engineering as a career, and after a 3 year journey,
+                    I found myself as a  a SWE Intern @ LinkedIn on the
+                    Deep Learning Training Platform team as part of the Machine Learning
+                    Infrastructure org. You can read about my journey here in my blog.
                   </p>
-
+                </div>
+                <div className="pb-8">
+                  <Link href="/martin-auyeung-resume.pdf">
+                    <a className="text-lg hover:text-gray-900 text-blue-800">
+                      if you're here to stalk my tech stuff, click here for my resume.
+                    </a>
+                  </Link>
+                </div>
+                <Image
+                  src="/aboutmeImages/me.jpg"
+                  alt="beans"
+                  height={1800}
+                  width={1400}
+                  className="rounded-lg"
+                />
+                <p className="text-sm pt-2 text-center">
+                  me in SF
+                </p>
+              </div>
+              <div>
+                <div className="text-3xl lg:text-3xl font-bold hover:text-gray-500 pb-4">
+                  music
+                </div>
+                <div className="text-lg">
                   <p className="pb-4">
-                    {" "}
-                    I never considered CS to be something I would pursue
-                    full-time, but instead something on the side for fun.
-                    However, I realized Biology was wasn't truly what I wanted
-                    to do as a full-time career (and it was kinda giving me
-                    depression)
+                    I grew up playing piano (15 years), so I'm just a sucker for good music. That led to my
+                    current passion for electronic dance music. Where my passion for it so strong I managed to get
+                    half the linkedin intern cohort into it too LOOOL. (they be dragging me to the shows when I visit :0) When I'm not
+                    working, I love going to live shows.  Here are my top 10 favourite events ranked:
                   </p>
-                  <p className="pb-4">
-                    I was having dinner with a friend of mine (who now works as
-                    a SDE @ Amazon) and he made me register for a CS course
-                    while I had a mouth full of rice. His argument was: "If
-                    you're not even enjoying yourself right now, what do you
-                    have to lose to make the jump?" I had already been
-                    interested in CS prior (took AP CS in highschool, made my
-                    own website for photography prior) and was really interested
-                    in being able to create a product I or someone could use. So
-                    I just said, screw it and registered. It ended up being one
-                    of my favourite courses I have taken at UBC and ultimately
-                    led me to make the jump.
+                  <ol className="list-decimal pl-12">
+                    <li>Second Sky 2022 (Porter Robinson) - Bay Area</li>
+                    <li>ILLENIUM Ascend Tour 2019 - Vancouver</li>
+                    <li>ILLENIUM Throwback Set 2019 w/ Said the Sky - WaMu Theatre</li>
+                    <li>EDC Vegas 2022</li>
+                    <li>Armin Van Buuren 2019 - PNE Forum</li>
+                    <li>Martin Garrix @ Brooklyn Mirage 2022</li>
+                    <li>EZOO NYC 2022 </li>
+                    <li>Coachella 2023</li>
+                    <li>Porter Robinson @ Wet Republic</li>
+                    <li>Gareth Emery Presents: LSR/CITY Vegas</li>
+                  </ol>
+                  <p className="pt-4 pb-8">
+                    And here some photos of my crews:
                   </p>
-                  <p className="pb-4">
-                    Passionate about learning more about development outside of
-                    class to accelerate my learning and catch up on what I've
-                    "missed", this website is used for me to learn more about
-                    front-end web development; and as well showcase the projects
-                    that I complete.
-                  </p>
+                  <div>
+                    <Image
+                      src="/aboutmeImages/ezoo.jpg"
+                      alt="beans"
+                      height={570}
+                      width={830}
+                      className="rounded-lg"
+                    />
+                    <p className="text-sm pb-8 text-center">
+                      Electric Zoo NYC 2022
+                    </p>
+                    <Image
+                      src="/aboutmeImages/ss.jpg"
+                      alt="beans"
+                      height={570}
+                      width={830}
+                      className="rounded-lg"
+                    />
+                    <p className="text-sm pb-8 text-center">
+                      Second Sky 2022
+                    </p>
+                    <Image
+                      src="/aboutmeImages/coachella.jpg"
+                      alt="beans"
+                      height={1500}
+                      width={2000}
+                      className="rounded-lg"
+                    />
+                    <p className="text-sm pb-8 text-center">
+                      Coachella 2023
+                    </p>
+                  </div>
                 </div>
               </div>
               <div>
                 <div className="text-3xl lg:text-3xl font-bold hover:text-gray-500 pb-4">
-                  Fun Facts 🥳
+                  food
                 </div>
-                <div className="text-lg">
-                  <p className="pb-4">
-                    I really like listening to music while I work. When I'm not
-                    working, live music makes it even better (ILLENIUM Ascend
-                    Tour/Throwback Sets were amazing) I'd love to share with you
-                    the music I like and want to hear what you like. Open to
-                    anything. I attended EDC Las Vegas 2022, and saw 
-                    Porter Robinson and Illenium twice that week. I
-                    also went to EZOO NYC 2022 (Martin Garrix, Porter, Subtronics, Seven Lions, SLANDER)
-                    and Second Sky 2022 (Porter, RL Grime, Virtual Self b2b G Jones, Skrillex) in the Bay Area.
+                <p className="pb-4 text-lg">
+                  I got a huge passion for food. I'm not picky bout food but if it doesn't taste good
+                  I'm not a happy man LOL. When I had my own place, I cooked for others. Here are some events I would do:
+                </p>
+                <div>
+                  <Image
+                    src="/aboutmeImages/everyoneeat.jpg"
+                    alt="beans"
+                    height={1900}
+                    width={2900}
+                    className="rounded-2xl"
+                  />
+                  <p className="text-sm pb-8 text-center">
+                    boodle fight for my last night in SF
                   </p>
-                  <p className="pb-4">
-                    You can probably catch me in my spare time just really doing
-                    random things. My projects that I worked with that won
-                    awards (hubble and my research paper) I literally just
-                    decided I wanted to do it because why not. Moral of the
-                    story is just do what you want and try new things and see
-                    what happens I guess.
+                  <Image
+                    src="/aboutmeImages/steak.jpg"
+                    alt="beans"
+                    height={3900}
+                    width={2900}
+                    className="rounded-2xl"
+                  />
+                  <p className="text-sm pb-8 text-center">
+                    KR pork belly & steak night - first dinner i hosted
                   </p>
-                  <p className="pb-4">
-                    Plat in Valorant. Professional @ dealing with malding teammates so you know I can work with anyone ;)
+                  <Image
+                    src="/aboutmeImages/boysnight.jpg"
+                    alt="beans"
+                    height={1400}
+                    width={1400}
+                    className="rounded-2xl"
+                  />
+                  <p className="text-sm pb-8 text-center">
+                    steak night & migoreng w/ egg
+                  </p>
+                  <Image
+                    src="/aboutmeImages/hotpot.jpg"
+                    alt="beans"
+                    height={3900}
+                    width={2900}
+                    className="rounded-lg"
+                  />
+                  <p className="text-sm pb-8 text-center">
+                    hotpot night
                   </p>
                 </div>
               </div>
@@ -109,6 +181,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

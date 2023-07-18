@@ -26,28 +26,22 @@ export const Header = () => {
                   Blog
                 </a>
               </Link>
-              <Link href="/martin-auyeung-resume.pdf">
-                <a className="font-poppins whitespace-nowrap text-base font-medium text-gray-500 pr-6 hover:text-gray-900">
-                  Resume
-                </a>
-              </Link>
-              <Link href="https://github.com/Foamyseal">
-                <a className="font-poppins whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-                  GitHub
+              <Link href="/projects">
+                <a className="whitespace-nowrap font-poppins text-base font-medium text-gray-500 pr-6 hover:text-gray-900">
+                  Projects
                 </a>
               </Link>
               <a
                 href="mailto:martin.auyeung1@gmail.com"
-                className="font-poppins ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                className="font-poppins whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
               >
-                Contact Me
+                Contact
               </a>
             </div>
             <div className="md:hidden justify-end relative pr-3 py-3 sm:max-w-xl">
               <nav x-data="{ open: false }">
                 <button className="text-gray-500 w-10 h-10 relative focus:outline-none bg-white" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
                   <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
-
                 </button>
               </nav>
             </div>
@@ -68,9 +62,9 @@ export const Header = () => {
                               Blog
                             </a>
                           </Link>
-                          <Link href="/martin-auyeung-resume.pdf">
-                            <a className="whitespace-nowrap text-center font-poppins text-base font-medium text-gray-900 pr-6 hover:text-gray-900">
-                              Resume
+                          <Link href="/projects">
+                            <a className="whitespace-nowrap font-poppins text-base font-medium text-gray-500 pr-6 hover:text-gray-900">
+                              Projects
                             </a>
                           </Link>
                           <Link href="mailto:martin.auyeung1@gmail.com">
