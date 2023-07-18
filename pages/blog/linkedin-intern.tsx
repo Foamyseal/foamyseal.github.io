@@ -52,7 +52,7 @@ const LinkedIntern = () => {
                                     How I recieved the highest performance rating return offer and my general thoughts working @ LinkedIn
                                 </div>
                                 <div className="font-bold text-indigo-400 pb-8">
-                                    Posted: July 14th, 2023
+                                    Posted: July 18th, 2023
                                 </div>
                                 <div>
                                     <div className="font-bold text-3xl pb-4">

@@ -13,7 +13,7 @@ const postDescList = [
     },
     {
         title: "UBC Vancouver Student to Bay Area Intern Guide",
-        date: "July 18, 2023",
+        date: "May 22nd, 2023",
         description:
             "What to do as a student from UBC Vancouver interning in the bay without the support of co-op",
         image: '/blogImages/cardCovers/bay.jpg',
