@@ -54,7 +54,7 @@ export const Blogs = () => {
                                     </Link>
                                 </div>
                                 <div className="text-center container font-poppins mx-auto text-2xl">
-                                    my journey, guides, and thoughts
+                                    my raw thoughts
                                 </div>
                             </div>
                         </div>
