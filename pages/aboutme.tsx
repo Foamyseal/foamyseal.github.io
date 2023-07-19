@@ -37,13 +37,12 @@ const AboutMe = () => {
                 </a>
                 <div className="text-lg">
                   <p className="pb-4">
-                    {" "}
                     I'm Martin (he/him), a 23 y/o UBC graduand that majored in
                     Computer Science, Biological Sciences & Earth, and Ocean
                     Sciences. I switched into this program from Biology
                     in January 2020 with the intent to pursue software
                     engineering as a career, and after a 3 year journey,
-                    I found myself as a  a SWE Intern @ LinkedIn on the
+                    I found myself as a SWE Intern @ LinkedIn on the
                     Deep Learning Training Platform team as part of the Machine Learning
                     Infrastructure org. You can read about my journey here in my blog.
                   </p>
@@ -154,6 +153,16 @@ const AboutMe = () => {
                   />
                   <p className="text-sm pb-8 text-center">
                     KR pork belly & steak night - first dinner i hosted
+                  </p>
+                  <Image
+                    src="/aboutmeImages/bbq.jpg"
+                    alt="beans"
+                    height={2000}
+                    width={3000}
+                    className="rounded-2xl"
+                  />
+                  <p className="text-sm pb-8 text-center">
+                    bbq night pre-run before boodle fight
                   </p>
                   <Image
                     src="/aboutmeImages/boysnight.jpg"

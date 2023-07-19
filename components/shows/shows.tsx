@@ -22,7 +22,7 @@ const experienceList = [
   {
     venue: "Bill Graham Civic Auditorium",
     artist:
-      "Dabin",
+      "Dabin Sanctuary Live",
   },
   {
     venue: "LA",
@@ -63,6 +63,11 @@ const experienceList = [
     venue: "Pacific Coliseum",
     artist:
       "Ophelia Takeover",
+  },
+  {
+    venue: "Cancun",
+    artist:
+      "ILLENIUM Ember Shores",
   },
   {
     venue: "Las Vegas",
