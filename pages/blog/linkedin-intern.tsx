@@ -211,7 +211,7 @@ const LinkedIntern = () => {
                                     <p className="pt-4 pb-4">
                                         I also worked out of the SF office multiple times throughout the internship. (so I could do stuff in SF after work) It was nice, but not a lot of people come into the SF office to work, so the office felt really gloomy everytime I went in. But its the office with a lot of younger people,
                                         so the SF office is how I met most of my full-timer friends that branched me into my south bay new grad friends. If there’s ever a need to be in the SF after work, I’d suggest taking the baby bullet caltrain and working out of the office. The commute isn’t too bad from
-                                        sunnyvale, about a 45 minute train ride if you time and take the Baby bullet. I definetly don’t recommend working alone in the SF office, it can feel lonely. Bring a few interns w u or meet up w some full-timers.
+                                        sunnyvale, about a 45 minute train ride if you time and take the Baby bullet. I don’t recommend working alone in the SF office, it can feel lonely. Bring a few interns w u or meet up w some full-timers.
                                     </p>
                                     <div className="pt-2 pb-8">
                                         <Image
@@ -304,13 +304,13 @@ const LinkedIntern = () => {
                                     <p className="pb-4">
                                         Prior to the internship starting, I had clearly stated I wanted to hit a far-exceeds performance goal & return offer to my mentor. With that in mind, he focused a lot on helping me acheive it. Here, your mentor is your biggest advocate.
                                         If you perform well, he also performs well as it means he's doing a good job. Your job as an intern is to make your mentor look good by performing well, so that he can advocate for your performance goals. There are 3 main parts of your perfomance package:
-                                        Communication. Leadership & Execution. Let's talk about how I acheived them.
+                                        Craftsmanship, Leadership & Execution. Let's talk about how I acheived them.
                                     </p>
                                     <div className="font-bold text-xl pb-4">
                                         Onboarding
                                     </div>
                                     <p className="pb-4">
-                                        The learning curve for this was insane. I never worked with such low-level work (needed extensive knoweldge of the Linux Kernel and it’s interaction with K8s) I was very blessed to have very strong support by my mentor, and he told me to skip the training and to just jump straight into learning about the project itself as it wasn’t relevant to the team.
+                                        The learning curve for this was insane. I never worked with such low-level work (needed extensive knoweldge of the Linux Kernel and it’s interaction with Kubernetes) I was very blessed to have very strong support by my mentor, and he told me to skip the training and to just jump straight into learning about the project itself as it wasn’t relevant to the team.
                                         (team has a very specific domain, and the orientation training is too general to encompass it)
                                     </p>
                                     <p className="pb-4">
@@ -338,7 +338,7 @@ const LinkedIntern = () => {
                                     </div>
                                     <p className="pb-4">
                                         Communicating your impact I’d say is just as important as being able to deliver technically. Even if you can finish a complex project extremely fast, what good is it if no one knows how complex it was and how you doing it so fast was out of the ordinary? My mentor taught me to do ‘milestone’ announcements in the team slack channel,
-                                        where I’d record a demo on Loom to showcase a milestone of my project, what it was, the deep dive, and why it was important I finished it. This tip was one of the strong reasons why I scored a ‘far-exceeds’ on my communication portion of my performance package. It’s not only important that your team knows what you are doing,
+                                        where I’d record a demo on Loom to showcase a milestone of my project, what it was, the deep dive, and why it was important I finished it. This tip was one of the strong reasons why I scored a ‘far-exceeds’ on my leadership portion of my performance package. It’s not only important that your team knows what you are doing,
                                         but it also helps with garnering feedback from the team. Other team members feedback would further help improve my project so it was impactful.
                                     </p>
                                     <div className="pb-8">
@@ -391,7 +391,7 @@ const LinkedIntern = () => {
                                     <p className="pb-4">
                                         Be mindful because everyone is busy with their own stuff, you should always be prepared with documentation
                                         to help with their understanding. They shouldn't be learning your project alone, but you should be teaching them what they need to know and what domain knowledge they carry that they can provide to help unblock you.  This is why creating documentation is so important. Helping others quickly understand what you need from them will make things mostly frictionless and you'll spend more time working than waiting.
-                                        This aspect of taking intitative to make the lives of other engineers easier through documentation was one of the factors that net me a 'far-exceeds' in the leadership category.
+                                        This aspect of taking intitative to make the lives of other engineers easier through documentation was one of the many factors that net me a 'far-exceeds' in the craftsmanship category.
                                     </p>
                                     <div className="font-bold text-xl pb-4">
                                         Finishing strong
