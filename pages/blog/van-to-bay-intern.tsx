@@ -24,6 +24,7 @@ const VanToBayIntern = () => {
       <Head>
         <title>Van to Bay Intern Guide - Martin Au-yeung</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="How Martin setup himself up for success to work in the Bay Area as a Canadian"></meta>
         <link
           href="https://fonts.googleapis.com/css?family=Poppins"
           rel="stylesheet"

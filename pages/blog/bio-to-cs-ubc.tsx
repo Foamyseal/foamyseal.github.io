@@ -23,6 +23,7 @@ const BioToCsUBC = () => {
       <Head>
         <title>Bio to CS @ UBC - Martin Au-yeung's Blog</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="How Martin switched into CS from Biology at UBC"></meta>
         <link
           href="https://fonts.googleapis.com/css?family=Poppins"
           rel="stylesheet"

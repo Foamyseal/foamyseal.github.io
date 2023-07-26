@@ -23,6 +23,7 @@ const BioToCsUBC = () => {
       <Head>
         <title>Getting my first internship - Martin Au-yeung's Blog</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="How Martin landed his first SWE internship"></meta>
         <link
           href="https://fonts.googleapis.com/css?family=Poppins"
           rel="stylesheet"
