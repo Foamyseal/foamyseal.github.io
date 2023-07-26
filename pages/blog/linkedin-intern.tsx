@@ -21,7 +21,7 @@ const LinkedIntern = () => {
     return (
         <>
             <Head>
-                <title>My Internship Experience @ LinkedIn - Martin Au-yeung's Blog</title>
+                <title>My Software Engineering Internship Experience at LinkedIn - Martin Au-yeung's Blog</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link
                     href="https://fonts.googleapis.com/css?family=Poppins"
@@ -45,7 +45,7 @@ const LinkedIntern = () => {
                                 </div>
                                 <a href="#">
                                     <div className="text-5xl font-bold hover:text-gray-500 pb-4">
-                                        My SWE Internship Experience @ LinkedIn
+                                        My SWE Internship Experience at LinkedIn
                                     </div>
                                 </a>
                                 <div className="font-bold text-slate-400 pb-2">
